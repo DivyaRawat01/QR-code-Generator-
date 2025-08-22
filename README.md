@@ -1,57 +1,58 @@
-**📌** **QR Code Generator (Tkinter + Python)**
+## **📌 QR Code Generator (Tkinter + Python)**
 
-A simple Python GUI application to generate custom QR codes with user-defined foreground/background colors and save them as .png images. Built using Tkinter, qrcode, and Pillow (PIL).
+-A simple Python GUI application to generate custom QR codes with user-defined foreground/background colors and save them as .png images. Built using Tkinter, qrcode, and Pillow (PIL).
+---
+## 🚀 Features
 
-**🚀** **Features**
+-  Generate QR codes from any URL or text message.
 
-Generate QR codes from any URL or text message.
+-  Choose foreground and background colors.
 
-Choose foreground and background colors.
+-  Save QR codes with a custom file name in .png format.
 
-Save QR codes with a custom file name in .png format.
+-  Preview QR code inside the GUI after generation.
 
-Preview QR code inside the GUI after generation.
+-  Lightweight and easy-to-use Tkinter interface.
+---
 
-Lightweight and easy-to-use Tkinter interface.
+## 🛠️ Technologies Used
+- **Python 3.x**  
+- **Tkinter** – GUI framework  
+- **qrcode** – QR code generation  
+- **Pillow (PIL)** – Image handling and preview  
 
-**🛠️ Technologies Used**
+---
 
- Python 3.x
+## 📂 Installation & Setup
 
- Tkinter – GUI framework
+1. **Clone this repository**
 
- qrcode – QR code generation
-
- Pillow (PIL) – Image handling and preview
-
-**📂 Installation & Setup**
-
-->Clone this repository:
-
+```bash
 git clone https://github.com/your-username/qr-code-generator.git
 cd qr-code-generator
+```
 
-
-->Install dependencies:
-
+2. **Install dependencies:**
+```bash
 pip install qrcode[pil] pillow
+```
 
+3. **Run the application:**
+```bash
+python qr_generator.py 
+```
+---
+## **🎮 Usage**
 
-->Run the application:
+1. Enter a URL or text message in the input box.
 
-python qr_generator.py
+2. Provide a file name (e.g., my_qr.png).
 
-**🎮 Usage**
+3. (Optional) Choose foreground and background colors.
 
-Enter a URL or text message in the input box.
+4. Click "Generate QR Code".
 
-Provide a file name (e.g., my_qr.png).
+5. Preview your QR inside the app.
 
-(Optional) Choose foreground and background colors.
-
-Click "Generate QR Code".
-
-Preview your QR inside the app.
-
-The QR code is saved automatically as a .png file.
-
+6. The QR code is saved automatically as a .png file.
+---
